@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 .App {
     -webkit-font-smoothing: antialiased;
-    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif !important;
+    
+    height: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
 }

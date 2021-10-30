@@ -19,9 +19,9 @@ function Sidebar() {
     return (
         <div className='sidebar'>
             <div className="content">
-                <a className="upload__link" href="https://drive.google.com/drive/">
-                    <button className="upload__button"><AddIcon className="upload__icon" fontSize='large'></AddIcon> New</button>
-                </a>       
+                <a className="link" href="https://drive.google.com/drive/">
+                    <button className="upload__button"><AddIcon className="upload__icon" fontSize='large'></AddIcon><a className="upload__link" href="https://drive.google.com/drive/">New</a></button>
+                </a>
 
                 <div className="sidebar__buttons">
 
@@ -35,10 +35,9 @@ function Sidebar() {
 
                 </div>
             </div>
-
                 <button className="storage"><CloudOutlinedIcon className="sidebar__icon"></CloudOutlinedIcon><a href="https://drive.google.com/drive/u/0/quota">Storage</a></button>
                 <button className="buy__storage"><a href="https://one.google.com/storage?i=m&utm_source=drive&utm_medium=web&utm_campaign=g1_widget_eighty#upgrade">Buy storage</a></button>
-            
+                
         </div>
     )
 }

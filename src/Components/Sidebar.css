@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 .sidebar {
-    height: calc(100% - 60px);
-    max-width: 200px;
+    height: calc(100% - 55px);
+    width: 200px;
+    font-family: 'Roboto Condensed', sans-serif !important;
 }
 
 .upload__button { 
@@ -21,14 +24,16 @@
     cursor: pointer;
 }
 
+.link {
+    text-decoration: none;
+}
+
+
 .upload__button:hover {
     box-shadow: 0 8px 20px rgb(0 0 0 / 0.4);
     background-color: rgba(250, 250, 250, 0.837);
 } 
 
-.upload__icon {
-    
-}
 .sidebar__buttons {
     display: flex;
     flex-direction: column;
@@ -53,8 +58,6 @@
     align-items: center;
     cursor: pointer;
     color: #5f6368;
-    
-    
 }
 
 .sidebar__buttons > button:hover {
@@ -63,6 +66,7 @@
 
 .upload__link {
     text-decoration: none;
+    color: black;
 }
 
 .sidebar__icons {
@@ -104,7 +108,6 @@
     color: #5f6368;
     margin-left: 28px;
     font-size: 13px !important;
-    
 }
 
 .buy__storage {
@@ -123,9 +126,6 @@
     text-decoration: none;
     color: #15c;
     font-weight: 600;
-    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif !important;
-    
-    
 }
 
 .sidebar__icon {
@@ -135,4 +135,20 @@
 
 .buy__storage:hover {
     background-color: rgb(243, 248, 255);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .sidebar__buttons > button > a {
+        display: none;
+    }
+    .sidebar {
+        width: 80px;
+    }
+    .storage > a {
+        display: none;
+    }
+    .upload__link {
+        display: none;
+    }
 }

@@ -13,7 +13,7 @@ function Header() {
         <div className="header">
             <img className="header__logo" src="https://bit.ly/3kVSOpH" alt="header__logo" />
 
-            <input className="header__search"  placeholder="Search In Drive" type="text" />
+            <input spellCheck="true" className="header__search"  placeholder="Search In Drive" type="text" />
 
                 <HelpOutlineOutlinedIcon className="icons__header" >
                     <button className='button__left1'>Click me</button>
@@ -28,7 +28,7 @@ function Header() {
                     <button>Click me</button>
                 </AppsIcon>
 
-                <img className='header__avatar' src='https://lh3.googleusercontent.com/ogw/ADea4I6CHBL6z8jimZtgWaBxIGf1lKifI5FsGdvweAfy7w=s83-c-mo' alt='Profile-pic' />
+                <img className='header__avatar' src='https://cdn-icons-png.flaticon.com/512/149/149071.png' alt='Profile-pic' />
         </div>
     )
 }

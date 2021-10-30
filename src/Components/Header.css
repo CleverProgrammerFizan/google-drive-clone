@@ -5,13 +5,14 @@
     background-color: white;
     border-bottom: 1px solid lightgrey;
     height: 60px;
-    width: 100%;
+    width: 100vw;
 }
 
 .header__logo {
     max-height: 25px;
     margin-left: 10px;
     padding-right: 150px;
+    cursor: pointer;
 }
 
 .header__search {
@@ -46,9 +47,18 @@
     -o-transition-duration: 150ms;
     transition: 150ms !important;
     transition-duration: 150ms !important;
+    cursor: pointer;
 }
 
 .icons__header:hover {
     background-color: rgb(233, 233, 233);
 }
 
+@media only screen and (max-width: 600px) {
+    .header__logo {
+        display: none;
+    }
+    .header__search {
+        margin-left: 25px;
+    }
+}

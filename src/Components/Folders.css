@@ -1,0 +1,31 @@
+.Folders {
+    margin-left: 240px;
+    display: flex;
+    flex-wrap: wrap;  
+    
+    width: 60%;
+}
+
+.folder__cards {
+    display: flex;
+    margin: 8px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgb(189, 189, 189);
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px;
+    color: rgb(79, 79, 79);
+
+}
+
+.folder__icon {
+    color: rgb(79, 79, 79);
+}
